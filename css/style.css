@@ -10,6 +10,7 @@ body{
     gap: 750px;
 }
 
+
 .logo > a > img{
     margin-top: -110px;
     width: 170px;
@@ -84,4 +85,17 @@ body{
     margin-top: 50px;
     width: 450px;
     height: auto;
+}
+/* end of work section */
+
+.side-line-lab{
+    border-left: 1px solid blue;
+    height: 600px;
+    margin-left: 200px;
+}
+
+.lab-section{
+    display:flex;
+    gap:2rem;
+    background: #0E0D17;
 }
