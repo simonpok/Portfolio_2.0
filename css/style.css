@@ -99,3 +99,54 @@ body{
     gap:2rem;
     background: #0E0D17;
 }
+
+.projects-section1{
+    display: flex;
+    gap:35rem;
+}
+
+.projects-section1 > article > a{
+    text-decoration: none;
+    color:white;
+}
+
+.projects-section1 > article > a:hover{
+    color: tan;
+}
+
+.projects-section2{
+    display: flex;
+    gap:42rem;
+}
+
+.projects-section2 > article > a{
+    text-decoration: none;
+    color:white;
+}
+
+.projects-section2 > article > a:hover{
+    color: tan;
+}
+/* End of project section */
+
+.about-section{
+    background: #15131C; 
+    display: flex;
+    gap:2rem;   
+    font-family: 'Monaco', monospace;
+}
+/* End of Intro section */
+
+.side-line-about{
+    border-left: 1px solid blue;
+    height: 1000px;
+    margin-left: 200px;
+}
+
+.class, .constructor, .return { color: blue; }
+  .yellow { color: yellow; }
+  .light-green { color: lightgreen; }
+  .red { color: red; }
+  .cyan { color: cyan; }
+  .grey { color: grey; }
+  .orange { color: orange; }
