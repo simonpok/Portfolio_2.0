@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
  </head>
  <body>
     <header>
@@ -15,26 +17,26 @@
 
             <section class="nav-buttons">
                 <ul>
-                    <li><a href="#">Start /></a></li>
+                    <li><a href="#start">Start /></a></li>
                     <li><a href="#works">Work /></a></li>
-                    <li><a href="#">Lab /></a></li>
-                    <li><a href="#">About /></a></li>
-                    <li><a href="#">Contact /></a></li>
+                    <li><a href="#lab">Lab /></a></li>
+                    <li><a href="#about">About /></a></li>
+                    <li><a href="#contact">Contact /></a></li>
                 </ul>
             </section>
         </nav>
         
 
-    <section class="intro-section">
+    <section class="intro-section" id="intro-section">
     <aside class="side-line-intro"></aside>
 
     <article class="intro">
-        <h5>Start /></h4>
+        <h5>Start /></h5>
         <br>
-        <h1>Hi, my name is Simon Pokhrel</h1>
-        <h4>I do Coding and Digital Marketing</h3>
+        <h1 style="font-size: x-large;">Hi, my name is <span style="color: blue; font-weight: bold;">Simon Pokhrel</span></h1>
+        <h4 style="font-size: x-large;">I do <span style="font-style: italic;">Coding</span> and <span style="font-style: italic;">Digital Marketing</span></h4>
         <br>
-        <h5>let me Drive you Through...</h4>
+        <h5>let me Drive you Through...</h5>
     </article>
     </section>
  </header>
@@ -61,7 +63,7 @@
    </article>
   </section>
 
-<section class="lab-section">
+<section class="lab-section" id="lab-section">
     <aside class="side-line-lab"></aside>
     <article class="my-lab">
         <header>
@@ -108,9 +110,9 @@
 
 </section>
 
-<section class="about-section">
-    <aside class="side-line-about"></aside>
-    <article class="my-lab">
+<section class="about-section" id="about-section">
+     <aside class="side-line-about"></aside>
+     <article class="my-lab">
         <header>
         <h5>About /></h5>
         
@@ -123,7 +125,7 @@
             <span class="constructor">constructor</span>() {<br>
             <span class="red">this</span><span class="cyan">.name</span> = '<span class="light-green">Simon Pokhrel</span>';<br>
             <span class="red">this</span><span class="cyan">.dateOfBirth</span> = <span class="orange">02/25/2002</span>;<br>
-            <span class="red">this</span><span class="cyan">.email</span> = '<span class="light-green">poksimon@yasio.dev</span>';<br>
+            <span class="red">this</span><span class="cyan">.email</span> = '<span class="light-green">poksimon9@gmail.com</span>';<br>
             }<br>
             <span class="yellow">workExperience</span>() {<br>
             <span class="return">return</span> [<br>
@@ -150,9 +152,34 @@
         
         </header>
         </article>
+    </section>
+
+    <section class="contact-section" id="contact-section">
+        <aside class="side-line-contact"></aside>
+        <article class="contacts">
+           <header>
+           <h5>Contact /></h5><br><br><br><br>
+           <h3>Find me on:</h3>
+           </header>
+           <footer>
+          <a href="https://www.facebook.com/simon.pokhrel.58/"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="https://www.instagram.com/hashtagsimon_/"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="https://www.linkedin.com/in/simon-pokhrel-3a5a83238/"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="https://github.com/simonpok"><i class="fab fa-github fa-lg"></i></a>
+          <a href="https://twitter.com/melophile_guy"><i class="fab fa-twitter fa-lg"></i></a>
+           </footer>
+
+         <button class="button">Get in touch</button>
+
+         <footer class="copyright">
+            <p>Made with /> by Simon. Year 2024. </p>
+         </footer>
+
+        </article>
+    </section>
 
   <script src="index.js"></script>
- </body>
+  </body>
 
 
-</html>
+ </html>

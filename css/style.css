@@ -1,6 +1,7 @@
 body{
-    background: #000;
+    background: #353839;
     color: white;
+    font-family:'Brush Script MT', cursive;
 }
 
 
@@ -9,6 +10,7 @@ body{
     display: flex;
     gap: 750px;
 }
+
 
 
 .logo > a > img{
@@ -90,7 +92,7 @@ body{
 
 .side-line-lab{
     border-left: 1px solid blue;
-    height: 600px;
+    height: 700px;
     margin-left: 200px;
 }
 
@@ -139,9 +141,10 @@ body{
 
 .side-line-about{
     border-left: 1px solid blue;
-    height: 1000px;
+    height: 700px;
     margin-left: 200px;
 }
+/* End of about section */
 
 .class, .constructor, .return { color: blue; }
   .yellow { color: yellow; }
@@ -150,3 +153,65 @@ body{
   .cyan { color: cyan; }
   .grey { color: grey; }
   .orange { color: orange; }
+
+/* some colors */
+
+.contact-section{
+    background: #0F0C10; 
+    display: flex;
+    gap:2rem;   
+    font-family: 'Monaco', monospace;
+}
+/* End of Intro section */
+
+.side-line-contact{
+    border-left: 1px solid blue;
+    height: 700px;
+    margin-left: 200px;
+}
+
+.contacts > footer{
+   display: flex;
+   gap: 1rem;
+   margin-top: 3rem;
+}
+
+.contacts > footer > a{
+    color: cyan;
+}
+
+
+.button{
+outline: 0;
+grid-gap: 8px;
+align-items: center;
+background: orange;
+border: 1px solid #000;
+border-radius: 4px;
+cursor: pointer;
+display: inline-flex;
+flex-shrink: 0;
+font-size: 16px;
+gap: 8px;
+justify-content: center;
+line-height: 1.5;
+overflow: hidden;
+padding: 12px 16px;
+text-decoration: none;
+text-overflow: ellipsis;
+transition: all .14s ease-out;
+white-space: nowrap;
+margin-top: 10rem;
+/* color: white; */
+}
+.button:hover {
+    box-shadow: 4px 4px 0 blue;
+    transform: translate(-4px,-4px);
+}
+.button:focus-visible{ 
+    outline-offset: 1px;
+}
+
+.copyright > p{
+    margin-top:10rem;
+}
