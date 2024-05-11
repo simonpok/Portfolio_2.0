@@ -5,12 +5,10 @@ body{
 }
 
 
-
 .navigation-bar{
     display: flex;
     gap: 750px;
 }
-
 
 
 .logo > a > img{
@@ -44,10 +42,9 @@ body{
     height: 600px;
     margin-left: 200px;
 }
-/* end of side line */
 
 .intro-section{
-    /* color: white; */
+   
     display: flex;
     gap:2rem;   
 }
@@ -78,7 +75,6 @@ body{
 }
 
 .work-pics2{
-    /* margin-left: -50px; */
     display: flex;
     gap:15rem;
 }
@@ -137,7 +133,7 @@ body{
     gap:2rem;   
     font-family: 'Monaco', monospace;
 }
-/* End of Intro section */
+
 
 .side-line-about{
     border-left: 1px solid blue;
@@ -166,7 +162,7 @@ body{
 
 .side-line-contact{
     border-left: 1px solid blue;
-    height: 700px;
+    height: 550px;
     margin-left: 200px;
 }
 
@@ -202,7 +198,7 @@ text-overflow: ellipsis;
 transition: all .14s ease-out;
 white-space: nowrap;
 margin-top: 10rem;
-/* color: white; */
+
 }
 .button:hover {
     box-shadow: 4px 4px 0 blue;
@@ -215,3 +211,5 @@ margin-top: 10rem;
 .copyright > p{
     margin-top:10rem;
 }
+
+/* End of Contact section */
