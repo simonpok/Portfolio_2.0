@@ -1,5 +1,5 @@
 body{
-    background: #353839;
+    background: #121019;
     color: white;
     font-family:'Brush Script MT', cursive;
 }
@@ -7,7 +7,9 @@ body{
 
 .navigation-bar{
     display: flex;
-    gap: 750px;
+    gap:750px;
+    position: fixed;
+    margin-bottom: 5rem;
 }
 
 
@@ -38,20 +40,20 @@ body{
 
 
 .side-line-intro{
-    border-left: 1px solid blue;
+    border-left: 2px solid blue;
     height: 600px;
     margin-left: 200px;
 }
 
 .intro-section{
-   
+   padding-top: 150px;
     display: flex;
     gap:2rem;   
 }
 /* End of Intro section */
 
 .side-line-work{
-    border-left: 1px solid blue;
+    border-left: 2px solid blue;
     height: 1000px;
     margin-left: 200px;
 }
@@ -66,12 +68,32 @@ body{
     margin-left: -100px;
     display: flex;
     gap:15rem;
+   
 }
 
-.work-pics1 > img{
+.work-pics1 > fig > img{
     margin-top: 50px;
     width: 450px;
     height: auto;
+    
+}
+
+.text{
+    background: grey;
+}
+
+.work-pics1 > fig > img:hover{
+    border: 2px solid blueviolet;
+    opacity: 1.5;
+    cursor: pointer;
+    
+}
+
+.figcap1{
+    position: absolute;
+    bottom: -26rem;
+    left:420px;
+    color: white;
 }
 
 .work-pics2{
@@ -79,7 +101,7 @@ body{
     gap:15rem;
 }
 
-.work-pics2 > img{
+.work-pics2 > fig > img{
     margin-top: 50px;
     width: 450px;
     height: auto;
@@ -87,7 +109,7 @@ body{
 /* end of work section */
 
 .side-line-lab{
-    border-left: 1px solid blue;
+    border-left: 2px solid blue;
     height: 700px;
     margin-left: 200px;
 }
@@ -136,7 +158,7 @@ body{
 
 
 .side-line-about{
-    border-left: 1px solid blue;
+    border-left: 2px solid blue;
     height: 700px;
     margin-left: 200px;
 }
@@ -161,7 +183,7 @@ body{
 /* End of Intro section */
 
 .side-line-contact{
-    border-left: 1px solid blue;
+    border-left: 2px solid blue;
     height: 550px;
     margin-left: 200px;
 }
