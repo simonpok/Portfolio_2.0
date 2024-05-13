@@ -4,16 +4,32 @@ body{
     font-family:'Brush Script MT', cursive;
 }
 
+.header-section{
+    display: flex;
+    flex-direction: column;
+}
 
 .navigation-bar{
     display: flex;
     gap:750px;
     position: fixed;
-    margin-bottom: 5rem;
+    margin-bottom: -5rem;
+    /* border: 1px solid red; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it appears above other content */
+     transition: top 0.5s; /* Add smooth transition effect */
+    
+}
+
+.navigation-bar.hidden {
+    top: -100px; /* Move it off the screen */
 }
 
 
 .logo > a > img{
+    margin-bottom: -130px;
     margin-top: -110px;
     width: 170px;
     height: 250px;
@@ -23,6 +39,8 @@ body{
     display: flex;
     gap:30px;
     list-style-type: none;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
    
 }
 
@@ -123,6 +141,7 @@ body{
 .projects-section1{
     display: flex;
     gap:35rem;
+    /* border: 1px solid red; */
 }
 
 .projects-section1 > article > a{

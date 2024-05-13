@@ -5,6 +5,38 @@ document.addEventListener("DOMContentLoaded", function(){
     const aboutlink = document.querySelector('a[href="#about"]');
     const contactlink = document.querySelector('a[href="#contact"]');
     const introlink = document.querySelector('a[href="#start"]');
+    const navbar = document.querySelector('.navigation-bar');
+    let lastScrollTop = 0;
+    // let isHoveringTop = false;
+
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            // Scrolling down
+            navbar.classList.add('hidden');
+        } else {
+            // Scrolling up or at the top
+            navbar.classList.remove('hidden');
+        }
+
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+    });
+
+    // window.addEventListener('mousemove', function(event) {
+    //     const y = event.clientY;
+
+    //     if (y <= 20) {
+    //         isHoveringTop = true;
+    //     } else {
+    //         isHoveringTop = false;
+    //     }
+
+    //     if (isHoveringTop && lastScrollTop <= 0) {
+    //         navbar.classList.remove('hidden');
+    //     }
+    // });
+
 
     
     worklink.addEventListener("click",function(event){
